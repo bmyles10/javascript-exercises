@@ -1,8 +1,8 @@
 const leapYears = function(year) {
     if (year % 4 === 0 && year % 100 !== 0 || year % 400 === 0 ) {       
-            return "This year is a leap year";
+            return true;
         } else {
-            return "This year is not a leap year."
+            return false;
         }
     } 
 
