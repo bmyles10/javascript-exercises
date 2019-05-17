@@ -1,26 +1,26 @@
-function add () {
+function add (plus1, plus2) {
+	return plus1 + plus2;
 	
 }
 
-function subtract () {
-	
+function subtract (sub1, sub2) {
+	return sub1 - sub2;
 }
 
-function sum () {
-	
+//Sum of numbers in an array
+function sum (item) {                                       
+	return item.reduce(add, 0)		   
+
 }
 
-function multiply () {
-	
+let multiply = (array1) => array1.reduce((prod1,prod2) => prod1 * prod2);
+
+let power = (start, here) => {
+    return Math.pow(start,here)
 }
 
-function power() {
-	
-}
 
-function factorial() {
-	
-}
+let factorial = () => {}
 
 module.exports = {
 	add,
