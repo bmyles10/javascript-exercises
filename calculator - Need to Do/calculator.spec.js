@@ -1,4 +1,4 @@
-const calculator = require ('./calculator.js');
+const calculator = require ('./calculator.js.js');
 
 describe('add', function() {
 	it('adds 0 and 0', function() {
@@ -15,7 +15,7 @@ describe('add', function() {
 });
 
 describe('subtract', function() {
-	xit('subtracts numbers', function() {
+	it('subtracts numbers', function() {
 		expect(calculator.subtract(10,4)).toEqual(6);
 	});
 });
